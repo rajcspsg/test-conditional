@@ -6,7 +6,6 @@ import org.springframework.context.ApplicationContext;
 import com.as.demo.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 import java.io.File;
 import java.io.FileReader;
 import java.nio.file.Path;

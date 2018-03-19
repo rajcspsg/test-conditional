@@ -10,6 +10,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 import org.springframework.data.aerospike.core.AerospikeTemplate;
 import org.springframework.data.aerospike.repository.config.EnableAerospikeRepositories;
 
+@Configuration
 class AerospikeDataSourceCondition implements Condition {
 
     @Value( "${userstore.host}")
